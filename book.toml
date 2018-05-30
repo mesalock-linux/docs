@@ -1,0 +1,5 @@
+[book]
+authors = ["Mingshen Sun"]
+multilingual = false
+src = "src"
+title = "MesaLock Linux Documentation"

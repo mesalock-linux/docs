@@ -1,0 +1,11 @@
+pipeline:
+  build:
+    image: rust:latest
+    commands:
+      - rustup show
+      - cargo install mdbook
+      - mdbook build -d docs.mesalock-linux.org
+  deploy:
+    image: appleboy/drone-scp
+    source: docs.mesalock-linux.org
+    secrets: [ plugin_host, plugin_target, ssh_username, ssh_key ]

@@ -10,5 +10,6 @@
   - [New Packages](./contributing/new_packages.md)
   - [Fuzzing](./contributing/fuzzing.md)
   - [Formal Verification](./contributing/formal_verification.md)
+- [Repository Map](./map.md)
 - [Roadmap](./roadmap.md)
 - [Artwork](./artwork.md)

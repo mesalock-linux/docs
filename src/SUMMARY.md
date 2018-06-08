@@ -1,6 +1,6 @@
 # Summary
 
-- [Introduction](./introduction.md)
+- [About](./about.md)
 - [Getting Started](./getting_started.md)
 - [Philosophy](./philosophy.md)
 - [Design](./design.md)
